@@ -34,7 +34,7 @@ Vérifier les erreurs de configuration :
 
 kustomize edit fix
 
-
+kubectl delete -k wordpress-datascientest
 
 #se connecter au pod wordpress
 kubectl exec -it datascientest-wordpress-657bbb9688-m7dwj -- bash
