@@ -3,6 +3,12 @@ curl -s https://api.github.com/repos/kubernetes-sigs/kustomize/releases/latest |
 tar -xvzf kustomize_*_linux_amd64.tar.gz
 sudo mv kustomize /usr/local/bin
 
+kustomize version
+
+#ou bien installation avec snap  
+sudo snap install kustomize
+
+
 # Vérification du chemin d'exécution de kustomize
 
 Si kustomize n'est pas trouvé, vérifie que le chemin d'installation est bien dans $PATH :
